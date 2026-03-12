@@ -1,4 +1,10 @@
 <Solution>
+  <Folder Name="/docker/">
+    <File Path="docker-compose.yml" />
+    <File Path="sales-api.Dockerfile" />
+    <File Path="vehicles-api.Dockerfile" />
+  </Folder>
+  <Folder Name="/frontend/" />
   <Folder Name="/src/" />
   <Folder Name="/src/BuildingBlocks/">
     <Project Path="CarDealership.BuildingBlocks/CarDealership.BuildingBlocks.csproj" />
@@ -6,8 +12,16 @@
     <Project Path="CarDealership.SharedKernel/CarDealership.SharedKernel.csproj" />
   </Folder>
   <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Sales/">
+    <Project Path="Sales.API/Sales.API.csproj" />
+    <Project Path="Sales.Application/Sales.Application.csproj" />
+    <Project Path="Sales.Domain/Sales.Domain.csproj" />
+    <Project Path="Sales.Infrastructure/Sales.Infrastructure.csproj" />
+  </Folder>
   <Folder Name="/src/Services/Vehicles/">
+    <Project Path="Vehicles.API/Vehicles.API.csproj" />
     <Project Path="Vehicles.Application/Vehicles.Application.csproj" />
     <Project Path="Vehicles.Domain/Vehicles.Domain.csproj" />
+    <Project Path="Vehicles.Infrastructure/Vehicles.Infrastructure.csproj" />
   </Folder>
 </Solution>
