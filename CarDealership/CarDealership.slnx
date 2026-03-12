@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="CarDealership.BuildingBlocks/CarDealership.BuildingBlocks.csproj" />
+    <Project Path="CarDealership.EventBus/CarDealership.EventBus.csproj" />
+    <Project Path="CarDealership.SharedKernel/CarDealership.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Vehicles/">
+    <Project Path="Vehicles.Application/Vehicles.Application.csproj" />
+    <Project Path="Vehicles.Domain/Vehicles.Domain.csproj" />
+  </Folder>
+</Solution>
